@@ -21,8 +21,8 @@ function App() {
                 <Counter value={count}/>
             </div>
             <div className={s.buttons} >
-                <Button callBack={reset} name={'reset'} disabled={count < 5}/>
                 <Button callBack={increment} name={'increment'} disabled={count == 5}/>
+                <Button callBack={reset} name={'reset'} disabled={count < 5}/>
             </div>
         </div>
 
